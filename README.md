@@ -1,34 +1,19 @@
-# Rocket-Elevators-Python-Controller
-This is the template to use for the python residential controller. You will find the classes that should be used along with some methods described in the requirements. The necessary file to run some tests is also included. 
+# Usage
 
-### Installation
+To use the program, you need to type python -m pytest
+## Example
+python -m pytest
 
-First, depending on your python version, make sure to install the Package Installer for Python (PIP) if needed:
 
-https://pip.pypa.io/en/stable/installing/
+# Description
 
-Next, install Pytest:
+This program is a controller for an elevator installation of which it takes the input from out side the elevator to call the best possible elevator and pick up the person on the right floor. Then once inside it takes there input of which floor they want to go to and takes them to it. the code is able to run through multiple scenarios with different floors, different directions, and different stops.
 
-https://docs.pytest.org/en/6.2.x/getting-started.html
 
-### Running the tests
-
-To launch the tests:
-
-`pytest`
-
-With a fully completed project, you should get an output like:
-
-![Screenshot from 2021-06-15 13-13-13](https://user-images.githubusercontent.com/28630658/122095645-a41fa000-cddb-11eb-9322-81a766cce4bb.png)
-
-You can also get more details about each test by adding the `-v` flag: 
-
-`pytest -v` 
-
-which should give something like: 
-
-![Screenshot from 2021-06-15 13-13-33](https://user-images.githubusercontent.com/28630658/122095759-c74a4f80-cddb-11eb-999d-dfe35dbe7d18.png)
-
-The test file can be left in your final project but no scenarios should be present in your code. The grader will run tests similar to the ones provided.
-
-Of course, make sure to edit this Readme file to describe your own project!
+# Dependencies
+To be able to try the program, you need ..
+-the current floor of the person pressing the button
+-the current floor of the elevator
+-the direction the elevator is going
+-the direction the person wants to go
+-the status of the elevator 
